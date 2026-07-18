@@ -1,0 +1,14 @@
+# wickra-embed
+
+> Allocation-free, #![no_std] streaming indicators for bare-metal and HFT — byte-for-byte identical to wickra-core. wickra-embed runs the Wickra indicator math where there is no operating system and no heap: microcontrollers, FPGA soft-cores, HFT co-processors. Every update is O(1) with a bounded worst-case latency, uses fixed-capacity buffers (no allocation), and produces the byte-for-byte identical value the std wickra-core produces on a server.
+
+wickra-embed is the no-alloc, bare-metal distillation of the Wickra core. The v0.1 line ships five verified no-alloc indicators (Sma, Ema, Rsi, Atr, Roc), byte-identical to wickra-core and verified by a parity test suite. It is a Rust no_std crate (embed-core on crates.io) with a C ABI for C, C++ and any C-capable firmware toolchain. Released under the MIT OR Apache-2.0 license.
+
+## Source and packages
+- [GitHub](https://github.com/wickra-lib/wickra-embed): Source, issues, and releases.
+- [crates.io](https://crates.io/crates/embed-core): Rust no_std crate.
+- [C ABI](https://github.com/wickra-lib/wickra-embed/releases): Prebuilt header + static library.
+
+## Ecosystem
+- [Wickra](https://wickra.org): The full std streaming-indicator library wickra-embed distills.
+- [Docs](https://docs.wickra.org): Documentation for the Wickra core.

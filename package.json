@@ -1,0 +1,25 @@
+{
+  "name": "wickra-embed-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Marketing site, live WASM demo, and API aggregator for wickra-embed.",
+  "scripts": {
+    "dev": "vitepress dev",
+    "gen:banner": "node scripts/gen-og-banner.mjs",
+    "build": "node scripts/gen-og-banner.mjs && vitepress build",
+    "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "lightweight-charts": "^4.2.0",
+    "wickra-wasm": "^0.9.7",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.6.0",
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.0"
+  }
+}
