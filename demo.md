@@ -68,4 +68,4 @@ for (const price of liveFeed) {
 ```
 
 The same shape works in Node and Python — see the
-[API pages](/api/wasm) for each binding's idiomatic snippet.
+[API pages](/api/rust) for each binding's idiomatic snippet.
