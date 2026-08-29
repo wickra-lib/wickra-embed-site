@@ -3,14 +3,14 @@
     "alt": "CI",
     "href": "https://github.com/wickra-lib/wickra-embed/actions/workflows/ci.yml",
     "file": "/badges/ci.svg",
-    "width": 90,
+    "width": 91,
     "height": 20
   },
   {
     "alt": "CodeQL",
     "href": "https://github.com/wickra-lib/wickra-embed/actions/workflows/codeql.yml",
     "file": "/badges/codeql.svg",
-    "width": 120,
+    "width": 121,
     "height": 20
   },
   {
