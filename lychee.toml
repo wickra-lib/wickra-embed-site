@@ -21,7 +21,5 @@ exclude_all_private = true
 exclude = [
   'wickra\.org/\$(\{|%7B)path',
   'crates\.io/crates/',
-  # wickra-embed is not published to any registry yet; these resolve once the
-  # first release lands. Excluded so the scheduled link check stays green until
-  # then. Remove on release.
+  'www\.npmjs\.com/package/',
 ]

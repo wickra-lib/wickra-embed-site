@@ -29,6 +29,6 @@ a `Candle` (`update(candle)`); the others take an `f64`.
 
 ## More
 
-- [crates.io/crates/embed-core](https://crates.io/crates/embed-core) - [docs.rs](https://docs.rs/embed-core)
+- [crates.io/crates/wickra-embed-core](https://crates.io/crates/wickra-embed-core) - [docs.rs](https://docs.rs/wickra-embed-core)
 - [Source & examples](https://github.com/wickra-lib/wickra-embed/tree/main/examples)
 - [Latency & memory](https://github.com/wickra-lib/wickra-embed/blob/main/BENCHMARKS.md)
