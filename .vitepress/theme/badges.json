@@ -21,6 +21,13 @@
     "height": 20
   },
   {
+    "alt": "GitHub release",
+    "href": "https://github.com/wickra-lib/wickra-embed/releases/latest",
+    "file": "/badges/release.svg",
+    "width": 111,
+    "height": 20
+  },
+  {
     "alt": "License: MIT OR Apache-2.0",
     "href": "https://github.com/wickra-lib/wickra-embed#license",
     "file": "/badges/license.svg",
