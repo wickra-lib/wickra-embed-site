@@ -115,7 +115,7 @@ export default defineConfig({
         items: [
           { text: 'Release notes', link: 'https://github.com/wickra-lib/wickra-embed/releases' },
           { text: 'Changelog', link: 'https://github.com/wickra-lib/wickra-embed/blob/main/CHANGELOG.md' },
-          { text: 'docs.rs', link: 'https://docs.rs/embed-core/latest/embed_core/' },
+          { text: 'docs.rs', link: 'https://docs.rs/wickra-embed-core/latest/wickra_embed_core/' },
         ],
       },
       {
