@@ -1,7 +1,7 @@
 {
-  "name": "wickra-embed",
-  "short_name": "wickra-embed",
-  "description": "Parallel multi-symbol screening over 514 streaming indicators.",
+  "name": "Wickra Embed",
+  "short_name": "Wickra Embed",
+  "description": "Allocation-free, `no_std` streaming indicators for bare-metal and HFT, byte-for-byte identical to the core.",
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
